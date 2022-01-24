@@ -18,13 +18,6 @@ body {
     background-color: silver;
 }
 
-.rq {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; */
-    
-}
-
 header {
     font-size: 40px;
     text-align: center;
@@ -43,22 +36,65 @@ header {
 
 .card-header {
     padding-top: 20px;
+    font-size: 40px;
 }
 
 .card-body {
+    font-size: 50px;
     height: 400px;
 }
 
 .btn {
     background-color: silver;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 60px;
     font-family: copperplate;
     padding: 5px;
     margin: 20px;
     cursor: pointer;
 }
 
+.current-question {
+    margin: 20px;
+    padding: 60px;
+    font-size: 40px;
+}
+
 .current-buttons {
     display: none;
+}
+
+.answer
+ {
+    font-size: 30px;
+    font-family: copperplate;
+    margin: 10px;
+    padding: 10px;
+
+} 
+
+.number-count {
+    font-size: 50px;
+}
+
+.final-score {
+    margin: 20px;
+    padding: 20px;;
+}
+
+.submit-form {
+    font-size: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+/* .hide-count {
+    display: none;
+} */
+
+.lasagna {
+
+    list-style-type: none;
 }
